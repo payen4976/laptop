@@ -1,0 +1,9 @@
+.breadcrumb-item + .breadcrumb-item:before{
+    content: '|';
+}
+.breadcrumb{
+    background-color: transparent;
+}
+#seek a{
+    font-size: 1rem;
+}
