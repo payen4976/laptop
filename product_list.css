@@ -1,0 +1,72 @@
+.bg_gray {
+  background: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);
+  line-height: 1.5rem; }
+
+.notice p {
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 5px; }
+
+.list-pic div {
+  border-bottom: 1px solid #e2e6ea;
+  border-top: 1px solid #e2e6ea; }
+  .list-pic div div a img {
+    transition: transform 1s; }
+  .list-pic div div a img:hover {
+    transform: scale(1.1); }
+  .list-pic div div p {
+    color: #0AA2ED; }
+  .list-pic div div p + a {
+    color: #666666;
+    font-size: 0.75rem;
+    margin-bottom: 0; }
+  .list-pic div div p + a:hover {
+    text-decoration: none; }
+  .list-pic div div div button {
+    width: 2rem;
+    color: #000;
+    background: #e6e6e6;
+    outline: 0; }
+  .list-pic div div div button:hover {
+    background: #666; }
+  .list-pic div div div input {
+    display: inline-block;
+    outline: 0;
+    width: 2rem;
+    text-align: center; }
+  .list-pic div div div button + .btn {
+    height: 2rem;
+    font-size: 0.75rem;
+    background-image: linear-gradient(top, #25a7e9 0%, #0998df 100%); }
+
+.page .pagination .page-item a {
+  border-radius: 0.25rem;
+  font-size: 0.75rem; }
+
+.pay ul li span {
+  font-size: 0.75rem;
+  color: #666; }
+  .pay ul li span a {
+    color: #666;
+    font-size: 10px; }
+  .pay ul li span a:hover {
+    text-decoration: none; }
+
+.pay ul li {
+  border-bottom: 1px dashed #e2e6ea; }
+  .pay ul li button {
+    width: 1rem;
+    line-height: 0.3rem;
+    color: white;
+    padding-left: 0.2rem;
+    padding-right: 0.5rem;
+    text-align: center; }
+  .pay ul li button:hover {
+    background: #666666; }
+  .pay ul li .form-control {
+    padding: 0;
+    width: 15px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 10px; }
