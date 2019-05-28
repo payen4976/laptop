@@ -1,0 +1,128 @@
+.my_header, .my_footer {
+  width: 100%; }
+
+@media screen and (min-width: 992px) {
+  .my_header {
+    height: 5rem; }
+  .my_footer {
+    height: 25rem; } }
+
+@media screen and (max-width: 991px) {
+  .my_header {
+    height: 11rem; }
+  .my_footer {
+    height: 36rem; } }
+
+.price {
+  background: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%); }
+
+.product_default div ul.pic {
+  background-color: transparent; }
+  .product_default div ul.pic .breadcrumb-item + .breadcrumb-item::before {
+    content: '>'; }
+  .product_default div ul.pic li a {
+    font-size: 0.75rem;
+    color: #666;
+    font-weight: 600; }
+
+.product_default div .big-img:hover {
+  transform: scale(1.1); }
+
+.product_default div .small-img:hover {
+  transform: scale(1.2);
+  border-style: solid;
+  border-color: #e2e6ea; }
+
+.product_default div .big-img, .product_default div .small-img {
+  transition: transform 1s; }
+
+.product_default div ul .breadcrumb-item + .breadcrumb-item::before {
+  content: ''; }
+
+.product_default div ul li img {
+  width: 5rem; }
+
+.product_default div .price:after {
+  content: '';
+  display: table; }
+
+.product_default div .price {
+  background-color: #e0e0e0;
+  border-radius: 0.5rem; }
+  .product_default div .price div span:first-child {
+    font-size: 0.75rem;
+    color: #444; }
+  .product_default div .price div span:last-child {
+    font-size: 2rem;
+    color: #0aa2ed; }
+  .product_default div .price p {
+    font-size: 0.75rem; }
+
+.product_default div span {
+  font-size: 1rem; }
+
+.product_default div span + span {
+  font-size: 0.75rem; }
+
+.product_default div .float-left {
+  float: left;
+  margin-right: 5px; }
+  .product_default div .float-left p {
+    font-size: 1rem; }
+
+.product_default div div .default {
+  font-size: 0.75rem;
+  line-height: 2rem;
+  text-decoration: none;
+  border: 1px solid #666666;
+  color: #666;
+  outline-color: blue; }
+
+.product_default div div .default:hover {
+  border: 1px solid #0AA1ED !important;
+  color: #0AA1ED !important; }
+
+.product_default div div .default:focus {
+  border: 2px solid #0AA1ED !important; }
+
+.product_default div span {
+  font-size: 1rem; }
+
+.product_default div button {
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem; }
+
+.product_default div input {
+  width: 2rem;
+  height: 2rem;
+  text-align: center; }
+
+.product_default div div:before {
+  content: '';
+  display: table; }
+
+.product_default div .shopping {
+  background: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);
+  height: 3.4rem;
+  line-height: 3.4rem;
+  color: #0aa2ed;
+  font-size: 1.2rem;
+  border-radius: 0.5rem; }
+
+.product_default div .my_car {
+  height: 3.5rem;
+  line-height: 3.5rem;
+  border-radius: 0.3rem; }
+
+.product_default div .collect {
+  height: 3.4rem;
+  width: 3.4rem;
+  line-height: 3.5rem;
+  border-radius: 0.2rem;
+  padding: 0; }
+  .product_default div .collect img {
+    margin-top: -2rem; }
+  .product_default div .collect p {
+    margin-top: -3rem; }
